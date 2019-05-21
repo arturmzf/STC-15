@@ -4,21 +4,25 @@ public class PassengerWagons extends Wagons {
 
     // Пассажирские вагоны
 
-    private int number; // Инвертарник
-    public int numberOfPassengers;
-    public String type; // Эконом, бизнес ENUM!!!
+    private int numberOfPassengers;
+    /*public String type; // Эконом, бизнес ENUM!!!*/
 
-    public PassengerWagons(int number, int numberOfPassengers, String type) {
+    public PassengerWagons(int parkNumber, int length, int weight, int number, int numberOfPassengers) {
+        super(parkNumber, length, weight, number);
+        this.numberOfPassengers = numberOfPassengers;
+    }
+
+    /*public PassengerWagons(int number, int numberOfPassengers, String type) {
         this.number = number;
         this.numberOfPassengers = numberOfPassengers;
         this.type = type;
 
-        Message();
-    }
+        message();
+    }*/
 
     @Override
-    public void Message() {
-        super.Message();
+    public void message() {
+        super.message();
         System.out.println("И он везёт пассажиров...");
     }
 }
