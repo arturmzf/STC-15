@@ -4,19 +4,19 @@ public class FreightWagons extends Wagons {
 
     // Грузовые вагоны
 
-    private TypeOfWagon typeOfWagon; // Хоппер, цисцерна, полувагон, рефрежиратор, платформа и др. ENUM!!!
+    private TypeOfFreightWagon typeOfFreightWagon; // Хоппер, цистерна, полувагон, платформа и др.
 
-    public TypeOfWagon getTypeOfWagon() {
-        return typeOfWagon;
+    public TypeOfFreightWagon getTypeOfFreightWagon() {
+        return typeOfFreightWagon;
     }
 
-    public void setTypeOfWagon(TypeOfWagon typeOfWagon) {
-        this.typeOfWagon = typeOfWagon;
+    public void setTypeOfFreightWagon(TypeOfFreightWagon typeOfFreightWagon) {
+        this.typeOfFreightWagon = typeOfFreightWagon;
     }
 
-    public FreightWagons(int parkNumber, int length, int weight, int number, TypeOfWagon typeOfWagon) {
+    public FreightWagons(int parkNumber, int length, int weight, int number, TypeOfFreightWagon typeOfFreightWagon) {
         super(parkNumber, length, weight, number);
-        this.typeOfWagon = typeOfWagon;
+        this.typeOfFreightWagon = typeOfFreightWagon;
     }
 
     /*public FreightWagons(int number, String type) {
