@@ -6,15 +6,11 @@ public class Wagons extends Technique {
 
     private int length;
     private int weight;
-    private int number;
-    /*int numberOfPassengers;
-    String type;*/
 
     public Wagons(int parkNumber, int length, int weight, int number) {
-        super(parkNumber);
+        super(parkNumber, number);
         this.length = length;
         this.weight = weight;
-        this.number = number;
     }
 
     public int getLength() {
@@ -25,17 +21,12 @@ public class Wagons extends Technique {
         return weight;
     }
 
-    public int getNumber() {
-        return number;
+    public void message() {
+        System.out.print("вагон данного состава является ");
     }
 
-    /*PassengerWagons passengerWagons = new PassengerWagons(number, numberOfPassengers, type);
-    FreightWagons freightWagons = new FreightWagons(number, type);*/
-
-    public void message() {
-
-        System.out.println("Это вагон...");
-
+    public int fullNumberOfPassengers() {
+        return 0;
     }
 
 }

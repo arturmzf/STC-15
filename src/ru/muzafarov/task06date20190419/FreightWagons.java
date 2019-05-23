@@ -29,7 +29,11 @@ public class FreightWagons extends Wagons {
     @Override
     public void message() {
         super.message();
-        System.out.println("И он везёт груз...");
+        System.out.println("грузовым. Он везёт: " + typeOfFreightWagon.getTypeOfGood());
+    }
+
+    public int getType() {
+        return 1;
     }
 
 }

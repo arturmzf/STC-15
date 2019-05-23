@@ -4,26 +4,38 @@ public class Locomotives extends Technique {
 
     // Локомотивы
 
-    private int number; // Инвертарник
-    private String name; // ВЛ-80, ЧС-7 ENAM!!!
-    private String movablePower; // Электричество, дизтопливо
+    /*private String name; // ВЛ-80, ЧС-7 ENAM!!!
+        private String movablePower; // Электричество, дизтопливо*/
+    private TypeOfLocomotive typeOfLocomotive;
 
-    public Locomotives(int number, String name, String movablePower, int parkNumber) {
-        super(parkNumber);
-        this.number = number;
-        this.name = name;
-        this.movablePower = movablePower;
+    public TypeOfLocomotive getTypeOfLocomotive() {
+        return typeOfLocomotive;
     }
 
-    public int getNumber() {
+    public void setTypeOfLocomotive(TypeOfLocomotive typeOfLocomotive) {
+        this.typeOfLocomotive = typeOfLocomotive;
+    }
+
+    public Locomotives(int parkNumber, int number, TypeOfLocomotive typeOfLocomotive) {
+        super(parkNumber, number);
+        this.typeOfLocomotive = typeOfLocomotive;
+    }
+
+    /*public Locomotives(int number, String name, String movablePower, int parkNumber) {
+        super(parkNumber, number);
+        this.name = name;
+        this.movablePower = movablePower;
+    }*/
+
+    /*public int getNumber() {
         return number;
     }
 
     public void setNumber(int number) {
         this.number = number;
-    }
+    }*/
 
-    public String getName() {
+    /*public String getName() {
         return name;
     }
 
@@ -37,5 +49,5 @@ public class Locomotives extends Technique {
 
     public void setMovablePower(String movablePower) {
         this.movablePower = movablePower;
-    }
+    }*/
 }

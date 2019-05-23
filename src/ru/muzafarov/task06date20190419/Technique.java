@@ -4,22 +4,20 @@ public class Technique {
 
     // Вся техника в парке (депо): и локомотивы, и вагоны
 
-    private int parkNumber;
-//    public int number;
-//    public String name;
-//    public String movablePower;
-
+    private int parkNumber; // Номер депо приписки
+    private int number;     // Инвертарный номер (ID)
 
     public int getParkNumber() {
         return parkNumber;
     }
 
-    public Technique(int parkNumber) {
-        this.parkNumber = parkNumber;
+    public int getNumber() {
+        return number;
     }
 
-    /*Locomotives lokomotive = new Locomotives(number, name, movablePower);
-    Wagons wagon = new Wagons();*/
-
+    public Technique(int parkNumber, int number) {
+        this.parkNumber = parkNumber;
+        this.number = number;
+    }
 
 }
