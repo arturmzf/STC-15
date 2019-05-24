@@ -19,21 +19,10 @@ public class FreightWagons extends Wagons {
         this.typeOfFreightWagon = typeOfFreightWagon;
     }
 
-    /*public FreightWagons(int number, String type) {
-        this.number = number;
-        this.type = type;
-
-        Message();
-    }*/
-
     @Override
     public void message() {
         super.message();
         System.out.println("грузовым. Он везёт: " + typeOfFreightWagon.getTypeOfGood());
-    }
-
-    public int getType() {
-        return 1;
     }
 
 }

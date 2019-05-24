@@ -22,7 +22,4 @@ public class PassengerWagons extends Wagons {
         return this.numberOfPassengers;
     }
 
-    public int getType() {
-        return 0;
-    }
 }
