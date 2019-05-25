@@ -6,10 +6,6 @@ public class VendingApplication {
 
     public static void main(String[] args) {
 
-        System.out.println("Здравствуйте! Вставьте купюру в купюроприёмник и нажмите ENTER:");
-        Scanner scanner = new Scanner(System.in);
-        int money = scanner.nextInt();
-
         Drink[] drinks = new Drink[]{
                 Drink.TEA_BLACK,
                 Drink.TEA_GREEN,
@@ -25,21 +21,13 @@ public class VendingApplication {
 
         VendingMachine vm = new VendingMachine(drinks);
 
+        vm.message(0, 0, 0, "");
+
+        vm.addMoney();
+
         vm.showMenu();
 
-
-
-
-        //addMoney(money);
-
-
-        //VendingMachine vm = new VendingMachine(drinks[]);
-
-        //vm.showMenu();
-
-        //vm.addMoney(100);
-
-        //vm.giveMeADrink(1);
+        vm.giveMeADrink();
 
     }
 
