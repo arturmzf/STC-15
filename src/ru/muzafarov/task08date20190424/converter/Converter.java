@@ -7,9 +7,4 @@ public class Converter {
         return act;
     }
 
-    @Override
-    public String toString() {
-
-    }
-
 }
