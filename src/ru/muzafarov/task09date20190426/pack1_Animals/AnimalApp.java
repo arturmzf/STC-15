@@ -1,5 +1,8 @@
 package ru.muzafarov.task09date20190426.pack1_Animals;
 
+import ru.muzafarov.task09date20190426.pack1_Animals.animals.Hare;
+import ru.muzafarov.task09date20190426.pack1_Animals.animals.Wolf;
+
 public class AnimalApp {
 
     public static void main(String[] args) {
