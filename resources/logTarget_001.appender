@@ -1,0 +1,55 @@
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 1.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 16
+java.lang.ArrayIndexOutOfBoundsException: 16
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 2.
+INFO  VendingMachine:94 - Успешно!
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 1.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 16
+java.lang.ArrayIndexOutOfBoundsException: 16
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 2.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 17
+java.lang.ArrayIndexOutOfBoundsException: 17
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 3.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 18
+java.lang.ArrayIndexOutOfBoundsException: 18
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 4.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 19
+java.lang.ArrayIndexOutOfBoundsException: 19
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 5.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 20
+java.lang.ArrayIndexOutOfBoundsException: 20
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 6.
+ERROR VendingMachine:97 - Ошибка!
+ERROR VendingMachine:98 - 21
+java.lang.ArrayIndexOutOfBoundsException: 21
+	at ru.muzafarov.task14date20190515.VendingMachine.giveMeADrink(VendingMachine.java:87)
+	at ru.muzafarov.task14date20190515.VendingApplication.main(VendingApplication.java:28)
+INFO  VendingMachine:83 - Начало работы метода giveMeADrink()
+INFO  VendingMachine:85 - Попытка срабатывания метода giveMeADrink() номер 7.
+INFO  VendingMachine:94 - Успешно!
