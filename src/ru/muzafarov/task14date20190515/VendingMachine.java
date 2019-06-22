@@ -1,12 +1,19 @@
 package ru.muzafarov.task14date20190515;
 
 import java.util.Scanner;
+import org.apache.log4j.Logger;
+import org.apache.log4j.Priority;
 
 public class VendingMachine {
 
     private Drink[] drinks;
     private int money;
     private int key;
+    private int attempt = 1;
+    private boolean legal = true;
+
+    // Logging
+    private static final Logger logger = Logger.getLogger(VendingMachine.class);
 
     public VendingMachine(Drink[] drinks) {
         this.drinks = drinks;
@@ -59,21 +66,52 @@ public class VendingMachine {
         System.out.println("Нажмите необходимую клавишу:");
         Scanner scanner = new Scanner(System.in);
         this.key = (scanner.nextInt() - 1);
+
+        /*
         while ((this.key < 0) || (this.key >= (drinks.length))) {
             System.out.println("Вы ввели неверное значение! Попробуйте ещё раз:");
             Scanner scanner1 = new Scanner(System.in);
             this.key = (scanner1.nextInt() - 1);
         }
+        */
+
     }
 
     public void giveMeADrink() {
 
+        do {
+            logger.log(Priority.INFO, "Начало работы метода giveMeADrink()");
+            try {
+                logger.info("Попытка срабатывания метода giveMeADrink() номер " + this.attempt + ".");
+                this.attempt++;
+                while (this.money < drinks[this.key].getDrinkPrice()) {
+                    message(2, this.money, drinks[this.key].getDrinkPrice(), "");
+                    addMoney();
+                }
+
+                message(1, this.money, drinks[key].getDrinkPrice(), drinks[key].getDrinkTitle());
+                this.legal = true;
+                logger.info("Успешно!");
+
+            } catch (ArrayIndexOutOfBoundsException e) {
+                logger.error("Ошибка!");
+                logger.error(e.getMessage(), e);
+                System.out.println("Вы ввели неверное значение! Попробуйте ещё раз:");
+                Scanner scanner = new Scanner(System.in);
+                this.key = (scanner.nextInt() - 1);
+                this.legal = false;
+            }
+
+        } while (!this.legal);
+
+        /*
         while(this.money < drinks[this.key].getDrinkPrice()) {
             message(2, this.money, drinks[this.key].getDrinkPrice(), "");
             addMoney();
         }
 
         message(1, this.money, drinks[key].getDrinkPrice(), drinks[key].getDrinkTitle());
+        */
 
     }
 
