@@ -14,8 +14,15 @@ public class Task15App {
 
     public static void main(String[] args) {
 
+        System.out.println("The 1st Part");
+
         PlayWithFiles.playWithFiles();
         // PlayWithFiles.playWithFiles();
+
+        System.out.println();
+        System.out.println("The 2nd Part");
+
+        Recurse.recurse(0, "");
 
     }
 

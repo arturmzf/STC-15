@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79daecad-9e48-406d-b69d-cbaaffaaf6e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/STC-15/ru/muzafarov/task15date20190517/play_with_files/myNewFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="360">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="36" column="136" selection-start-line="36" selection-start-column="136" selection-end-line="36" selection-end-column="136" />
+            <state relative-caret-position="345">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -47,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="204">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -122,17 +123,16 @@
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task75date20190517/playWithFiles.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task75date20190517/Recurse.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/playWithFiles.java" />
-        <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java" />
+        <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
-    <option name="y" value="123" />
-    <option name="width" value="1600" />
-    <option name="height" value="860" />
+    <option name="y" value="-1" />
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -335,18 +335,17 @@
       <workItem from="1561184331459" duration="2686000" />
       <workItem from="1561192777814" duration="3635000" />
       <workItem from="1561216055154" duration="1342000" />
-      <workItem from="1561482868495" duration="4808000" />
+      <workItem from="1561482868495" duration="11793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169803000" />
+    <option name="totallyTimeSpent" value="176788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="123" width="1600" height="860" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1280" height="1024" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23680824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29821718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +354,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3206522" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26222223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -844,20 +843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="36" column="136" selection-start-line="36" selection-start-column="136" selection-end-line="36" selection-end-column="136" />
+        <state relative-caret-position="345">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -865,10 +854,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />

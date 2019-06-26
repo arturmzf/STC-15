@@ -10,16 +10,17 @@
 
 package ru.muzafarov.task15date20190517;
 
-import java.io.File;
-import java.nio.*;
+import java.io.*;
 import java.io.IOException;
+import java.nio.file.Files;
 
 public class PlayWithFiles {
 
     public static void playWithFiles() {
 
-        File myFile = new File("/media/arturmzf/General/STC-15/src/ru/muzafarov/task15date20190517/play_with_files", "myFile.txt");
+        File myFile = new File("src/ru/muzafarov/task15date20190517/play_with_files", "myFile.txt");
 
+        // Создание файла
         try {
             if (myFile.createNewFile()) {
                 System.out.println("Файл успешно создан!");
@@ -34,17 +35,29 @@ public class PlayWithFiles {
 
         System.out.println();
 
-        if (myFile.renameTo(new File("/media/arturmzf/General/STC-15/src/ru/muzafarov/task15date20190517/play_with_files/myNewFile.txt"))) {
+        // Переименование файла
+        File myNewFile = new File("src/ru/muzafarov/task15date20190517/play_with_files/myNewFile.txt");
+        if (myFile.renameTo(myNewFile)) {
             System.out.println("Файл успешно переименован!");
         } else {
             System.out.println("Файл не переименован...");
         }
 
-        //myFile.copy();
+        System.out.println();
+
+        // Копирование файла
+        try {
+            Files.copy(myNewFile.toPath(), myFile.toPath());
+            System.out.println("Файл успешно скопирован!");
+        } catch(IOException e) {
+            System.out.println("Не удалось скопировать файл...");
+            System.out.println(e);
+        }
 
         System.out.println();
 
-        if (myFile.delete()) {
+        // Удаление файла
+        if (myNewFile.delete()) {
             System.out.println("Файл успешно удалён!");
         } else {
             System.out.println("Файл не удалён...");

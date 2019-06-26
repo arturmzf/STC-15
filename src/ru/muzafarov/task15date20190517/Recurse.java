@@ -11,23 +11,56 @@
 package ru.muzafarov.task15date20190517;
 
 import java.io.File;
-import java.nio.*;
 import java.io.IOException;
+import java.nio.file.Files;
 
 public class Recurse {
 
-    public static void recurse() {
+    private int offset = 0;
+    //private String[] elements;
 
-        File dir = new File ("/media/arturmzf/General/STC-15/src/ru/muzafarov/task15date20190517/recurse/dir0.0");
+    public static void recurse(int offset, String dirChild) {
 
-        dir.mkdir();
+        File mainDir = new File ("src/ru/muzafarov/task15date20190517/recurse"
+                + File.separator + dirChild);
+
+        File[] elements = mainDir.listFiles();
+
+        for(File element : elements) {
+
+            if(element.isFile()) {
+
+                for(int i = 0; i <= offset; i++) {
+                    System.out.print("\t");
+                }
+
+                System.out.println(element.getName());
+
+            } else {
+
+                for(int i = 0; i <= offset; i++) {
+                    System.out.print("\t");
+                }
+
+                System.out.println(element.getName());
+
+                recurse(offset++, element.getName());
+
+            }
+
+        }
+
+
+
+
+        /*dir.mkdir();
             File dirEnter = new File ();
             dirEnter.recurse(); // МЕТОД СТАТИЧЕСКИЙ!
         if(dir.isDirectory()) {
 
         } else {
             recurse();
-        }
+        }*/
 
     }
 
