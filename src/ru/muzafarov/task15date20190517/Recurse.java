@@ -19,10 +19,9 @@ public class Recurse {
     private int offset = 0;
     //private String[] elements;
 
-    public static void recurse(int offset, String dirChild) {
+    public static void recurse(int offset, String dirPath) {
 
-        File mainDir = new File ("src/ru/muzafarov/task15date20190517/recurse"
-                + File.separator + dirChild);
+        File mainDir = new File (dirPath);
 
         File[] elements = mainDir.listFiles();
 
@@ -30,37 +29,34 @@ public class Recurse {
 
             if(element.isFile()) {
 
-                for(int i = 0; i <= offset; i++) {
-                    System.out.print("\t");
+                for(int i = 0; i < offset; i++) {
+                    System.out.print(" ");
                 }
 
                 System.out.println(element.getName());
 
             } else {
 
-                for(int i = 0; i <= offset; i++) {
-                    System.out.print("\t");
+                for(int i = 0; i < offset; i++) {
+                    System.out.print(" ");
                 }
 
                 System.out.println(element.getName());
 
-                recurse(offset++, element.getName());
+                try {
+                    recurse(++offset, element.getCanonicalPath());
+                } catch (IOException e) {
+                    System.out.println("Произошла ошибка! Возможно, проблемы с носителем...");
+                    System.out.println("Более подробная информация:");
+                    System.out.println(e);
+                }
+
+
+
 
             }
 
         }
-
-
-
-
-        /*dir.mkdir();
-            File dirEnter = new File ();
-            dirEnter.recurse(); // МЕТОД СТАТИЧЕСКИЙ!
-        if(dir.isDirectory()) {
-
-        } else {
-            recurse();
-        }*/
 
     }
 

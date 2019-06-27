@@ -22,7 +22,7 @@ public class Task15App {
         System.out.println();
         System.out.println("The 2nd Part");
 
-        Recurse.recurse(0, "");
+        Recurse.recurse(0, "src/ru/muzafarov/task15date20190517/recurse");
 
     }
 
