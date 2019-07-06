@@ -30,7 +30,7 @@ public class Recurse {
             if(element.isFile()) {
 
                 for(int i = 0; i < offset; i++) {
-                    System.out.print(" ");
+                    System.out.print("---");
                 }
 
                 System.out.println(element.getName());
@@ -38,13 +38,14 @@ public class Recurse {
             } else {
 
                 for(int i = 0; i < offset; i++) {
-                    System.out.print(" ");
+                    System.out.print("---");
                 }
 
                 System.out.println(element.getName());
 
                 try {
-                    recurse(++offset, element.getCanonicalPath());
+                    int newOffset = offset + 1;
+                    recurse(newOffset, element.getCanonicalPath());
                 } catch (IOException e) {
                     System.out.println("Произошла ошибка! Возможно, проблемы с носителем...");
                     System.out.println("Более подробная информация:");
