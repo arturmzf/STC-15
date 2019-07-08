@@ -79,4 +79,16 @@ public class Book {
         this.rackLevel[1] = level;
     }
 
+    @Override
+    public String toString() {
+
+        return "Book ID: " + getId() + "\n"
+                + "Author of the Book: " + getAuthor() + "\n"
+                + "Title of the Book: " + getTitle() + "\n"
+                + "Book published: " + getYear() + "\n"
+                + "The Rack: " + getRack() + "\n"
+                + "The Level: " + getLevel() + "\n\n";
+
+    }
+
 }

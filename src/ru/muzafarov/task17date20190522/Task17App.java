@@ -52,24 +52,52 @@ public class Task17App {
 
         }
 
-        System.out.println("Your choice is Library # " + library.getLibraryNumber() + "...");
+        System.out.println("Alright! Your choice is Library # " + library.getLibraryNumber() + "...");
         System.out.println("Library: " + library.getLibraryTitle());
         System.out.println("Address of Library: " + library.getLibraryAddress());
         System.out.println();
 
-        String answer = "";
+        String answerWishToAdd = "";
+        String answerWishToSee = "";
+        String answerWishToSave = "";
         System.out.println("Would You Add Any Book to the Library # " + library.getLibraryNumber() +
-                                "? Y(y) - yes, N(n) - no.");
+                                "? Y(y)/ Д(д) - yes, N(n)/ Н(н) - no.");
         Scanner keyboard2 = new Scanner(System.in);
-        answer = keyboard2.nextLine().toLowerCase();
+        answerWishToAdd = keyboard2.nextLine().toLowerCase();
 
-        while(answer.equals("y")) {
+        while(answerWishToAdd.equals("y") || answerWishToAdd.equals("д")) {
 
             library.addBook();
 
+            System.out.println("Thank You! The Book is Added...");
+            System.out.println("");
             System.out.println("Would You Add Any Book to the Library # " + library.getLibraryNumber() +
                     "? Y(y) - yes, N(n) - no.");
-            answer = keyboard2.nextLine().toLowerCase();
+            answerWishToAdd = keyboard2.nextLine().toLowerCase();
+
+        }
+
+        System.out.println("Would You Save the List of Books of the Library # " + library.getLibraryNumber() +
+                "? Y(y) - yes, N(n) - no.");
+
+        Scanner keyboard3 = new Scanner(System.in);
+        answerWishToSave = keyboard3.nextLine().toLowerCase();
+
+        if(answerWishToSave.equals("y") || answerWishToSave.equals("д")) {
+
+            library.saveBooks();
+
+        }
+
+        System.out.println("Would You See the List of Books of the Library # " + library.getLibraryNumber() +
+                "? Y(y) - yes, N(n) - no.");
+
+        Scanner keyboard4 = new Scanner(System.in);
+        answerWishToSee = keyboard4.nextLine().toLowerCase();
+
+        if(answerWishToSee.equals("y") || answerWishToSee.equals("д")) {
+
+            library.showBooks();
 
         }
 

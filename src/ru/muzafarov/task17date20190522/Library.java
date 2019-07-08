@@ -10,6 +10,7 @@
 package ru.muzafarov.task17date20190522;
 
 import java.util.*;
+import java.io.*;
 
 public enum Library {
 
@@ -20,6 +21,7 @@ public enum Library {
     private int libraryNumber;
     private String libraryTitle;
     private String libraryAddress;
+    private Book[] books = new Book[100];
 
     private static int bookID = 1;
 
@@ -83,6 +85,53 @@ public enum Library {
         int level = keyboard.nextInt();
 
         Book book = new Book(id, author, title, year, rack, level);
+
+        this.books[id] = book;
+
+    }
+
+    public void saveBooks() {
+
+        try (OutputStream os = new FileOutputStream("src/ru/muzafarov/task17date20190522/files/booksBase.bin");
+            ObjectOutputStream fout = new ObjectOutputStream(os))
+        {
+
+            for (Book book : books) {
+                fout.writeObject(book);
+            }
+
+        } catch (IOException e) {
+
+            // ВНИМАНИЕ!
+            System.out.println("Ошибка при работе с потоком...");
+
+        }
+
+    }
+
+    public void showBooks() {
+
+        try (InputStream is = new FileInputStream("src/ru/muzafarov/task17date20190522/files/booksBase.bin");
+             ObjectInputStream fin = new ObjectInputStream(is))
+        {
+            Book book;
+            // Чего за AVAILABLE ещё?
+            while (is.available() > 0) {
+                book = (Book) fin.readObject();
+                System.out.println(book);
+            }
+
+        } catch (IOException | ClassNotFoundException e) {
+
+            e.printStackTrace();
+
+        }
+
+        /*for (Book book : books) {
+
+            System.out.println(book.toString());
+
+        }*/
 
     }
 
