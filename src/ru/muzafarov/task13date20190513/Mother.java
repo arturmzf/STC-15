@@ -1,6 +1,7 @@
 package ru.muzafarov.task13date20190513;
 
 import java.util.Scanner;
+import ru.muzafarov.task13date20190513.exceptions.EructationException;
 
 public class Mother {
 
@@ -34,7 +35,17 @@ public class Mother {
 
         mySon.speakBeginning();
 
-        mySon.doEat();
+        try {
+
+            mySon.doEat();
+
+        } catch(EructationException e) {
+            System.out.println("Ребёнок, конечно, скажет спасибо... Но мы-то прекрасно понимаем...");
+        } catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Неверный номер!");
+        } finally {
+            System.out.println("Большое спасибо! Было очень вкусно!");
+        }
 
     }
 

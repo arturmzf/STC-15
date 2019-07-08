@@ -25,12 +25,18 @@ public class Child {
 
     }
 
-    public void doEat() /* throws EructationException */ {
+    public void doEat() throws EructationException /* throws EructationException */ {
 
         // Проверка
         // System.out.println(this.dishes[this.numberOfDish - 1].getTitle());
 
-        try {
+        if (!this.dishes[this.numberOfDish - 1].getEatable()) {
+            throw new EructationException();
+        }
+
+        System.out.println("Ура! Наше сегодняшнее блюдо: " + this.dishes[this.numberOfDish - 1].getTitle());
+
+        /*try {
 
             if (!this.dishes[this.numberOfDish - 1].getEatable()) {
                 throw new EructationException();
@@ -44,7 +50,7 @@ public class Child {
             System.out.println("Неверный номер!");
         } finally {
             System.out.println("Большое спасибо! Было очень вкусно!");
-        }
+        }*/
 
     }
 
