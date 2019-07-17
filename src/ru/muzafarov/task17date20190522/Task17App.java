@@ -57,6 +57,7 @@ public class Task17App {
         System.out.println("Address of Library: " + library.getLibraryAddress());
         System.out.println();
 
+        boolean isAnyBookAdded = false;
         String answerWishToAdd = "";
         String answerWishToSee = "";
         String answerWishToSave = "";
@@ -68,6 +69,7 @@ public class Task17App {
         while(answerWishToAdd.equals("y") || answerWishToAdd.equals("д")) {
 
             library.addBook();
+            isAnyBookAdded = true;
 
             System.out.println("Thank You! The Book is Added...");
             System.out.println("");
@@ -77,15 +79,20 @@ public class Task17App {
 
         }
 
-        System.out.println("Would You Save the List of Books of the Library # " + library.getLibraryNumber() +
-                "? Y(y) - yes, N(n) - no.");
+        // Если хотя бы одна книга была добавлена, запрашиваем, нужно ли сохранить...
+        if(isAnyBookAdded) {
 
-        Scanner keyboard3 = new Scanner(System.in);
-        answerWishToSave = keyboard3.nextLine().toLowerCase();
+            System.out.println("Would You Save the List of Books of the Library # " + library.getLibraryNumber() +
+                    "? Y(y) - yes, N(n) - no.");
 
-        if(answerWishToSave.equals("y") || answerWishToSave.equals("д")) {
+            Scanner keyboard3 = new Scanner(System.in);
+            answerWishToSave = keyboard3.nextLine().toLowerCase();
 
-            library.saveBooks();
+            if(answerWishToSave.equals("y") || answerWishToSave.equals("д")) {
+
+                library.saveBooks(library.getLibraryNumber());
+
+            }
 
         }
 
@@ -97,7 +104,7 @@ public class Task17App {
 
         if(answerWishToSee.equals("y") || answerWishToSee.equals("д")) {
 
-            library.showBooks();
+            library.showBooks(library.getLibraryNumber());
 
         }
 

@@ -9,7 +9,9 @@
 
 package ru.muzafarov.task17date20190522;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable {
 
     // Номер или ИД
     private int id;

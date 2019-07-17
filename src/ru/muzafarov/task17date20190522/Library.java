@@ -21,7 +21,7 @@ public enum Library {
     private int libraryNumber;
     private String libraryTitle;
     private String libraryAddress;
-    private Book[] books = new Book[100];
+    private Book[] books = new Book[0];
 
     private static int bookID = 1;
 
@@ -84,15 +84,22 @@ public enum Library {
         System.out.println("Which level is the book on? Answer and do not forget to press ENTER-key!");
         int level = keyboard.nextInt();
 
-        Book book = new Book(id, author, title, year, rack, level);
+        // Перезапись массива books с добавлением нового элемента
+        Book[] newArrayOfBooks = new Book[this.books.length + 1];
+        System.arraycopy(this.books, 0, newArrayOfBooks, 0, this.books.length);
 
-        this.books[id] = book;
+        Book book = new Book(id, author, title, year, rack, level);
+        newArrayOfBooks[this.books.length] = book;
+
+        this.books = newArrayOfBooks;
 
     }
 
-    public void saveBooks() {
+    public void saveBooks(int libNum) {
 
-        try (OutputStream os = new FileOutputStream("src/ru/muzafarov/task17date20190522/files/booksBase.bin");
+        // char libraryNumber = (char)libNum;
+
+        try (OutputStream os = new FileOutputStream("src/ru/muzafarov/task17date20190522/files/booksBase" + libNum + ".bin");
             ObjectOutputStream fout = new ObjectOutputStream(os))
         {
 
@@ -109,9 +116,11 @@ public enum Library {
 
     }
 
-    public void showBooks() {
+    public void showBooks(int libNum) {
 
-        try (InputStream is = new FileInputStream("src/ru/muzafarov/task17date20190522/files/booksBase.bin");
+        // char libraryNumber = (char)libNum;
+
+        try (InputStream is = new FileInputStream("src/ru/muzafarov/task17date20190522/files/booksBase" + libNum + ".bin");
              ObjectInputStream fin = new ObjectInputStream(is))
         {
             Book book;

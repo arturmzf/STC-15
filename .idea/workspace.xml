@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79daecad-9e48-406d-b69d-cbaaffaaf6e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Task17App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Task17App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/files/booksBase.bin" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Task17App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+            <state relative-caret-position="472">
+              <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -29,30 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="240">
+              <caret line="122" column="112" selection-start-line="122" selection-start-column="112" selection-end-line="122" selection-end-column="112" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1133#1134#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1323#1324#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
@@ -84,27 +70,6 @@
                 <element signature="e#1388#1389#0" expanded="true" />
                 <element signature="e#1423#1424#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="36" column="108" selection-start-line="36" selection-start-column="108" selection-end-line="36" selection-end-column="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -172,11 +137,11 @@
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Task15App.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/Recurse.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task15date20190517/PlayWithFiles.java" />
+        <option value="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java" />
+        <option value="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Book.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Task17App.java" />
         <option value="$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Library.java" />
-        <option value="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java" />
-        <option value="$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java" />
       </list>
     </option>
   </component>
@@ -192,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,7 +182,7 @@
               <item name="STC-15" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="muzafarov" type="462c0819:PsiDirectoryNode" />
-              <item name="task13date20190513" type="462c0819:PsiDirectoryNode" />
+              <item name="task17date20190522" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="STC-15" type="b2602c69:ProjectViewProjectNode" />
@@ -224,12 +190,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="muzafarov" type="462c0819:PsiDirectoryNode" />
               <item name="task17date20190522" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,17 +358,17 @@
       <workItem from="1561482868495" duration="11793000" />
       <workItem from="1561666706651" duration="3768000" />
       <workItem from="1562426815979" duration="15647000" />
+      <workItem from="1563378397731" duration="3658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196203000" />
+    <option name="totallyTimeSpent" value="199861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1279" y="62" width="1602" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="1600" y="-1" width="1366" height="768" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25096276" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25530303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26081258" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25931677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +387,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32880434" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32503277" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32453415" />
       <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -842,64 +808,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class" />
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/files/booksBase.bin" />
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/ObjectInputStream.class" />
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Dishes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Task17App.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        <state relative-caret-position="459">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/files/booksBase.bin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/ObjectInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="542" selection-start-line="542" selection-end-line="542" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
@@ -924,25 +863,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Dishes.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Task17App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Mother.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task13date20190513/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="36" column="108" selection-start-line="36" selection-start-column="108" selection-end-line="36" selection-end-column="108" />
+        <state relative-caret-position="472">
+          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/muzafarov/task17date20190522/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="122" column="112" selection-start-line="122" selection-start-column="112" selection-end-line="122" selection-end-column="112" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
