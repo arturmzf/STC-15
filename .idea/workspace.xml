@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79daecad-9e48-406d-b69d-cbaaffaaf6e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_annotations_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/ChuckNorrisJokes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/Task20App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/Task21App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask1/ShiftOfArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask2/ArrayReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STC-15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/STC-15.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,20 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task20App">
-    <configuration name="Task15App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.muzafarov.task15date20190517.Task15App" />
-      <module name="STC-15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.muzafarov.task15date20190517.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task21App">
     <configuration name="Task17App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.muzafarov.task17date20190522.Task17App" />
       <module name="STC-15" />
@@ -146,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task21App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.muzafarov.task21date20190531.Task21App" />
+      <module name="STC-15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.muzafarov.task21date20190531.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task21App" />
         <item itemvalue="Application.Task20App" />
         <item itemvalue="Application.Task18App" />
         <item itemvalue="Application.Task19App" />
         <item itemvalue="Application.Task17App" />
-        <item itemvalue="Application.Task15App" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +199,7 @@
       <workItem from="1563815804268" duration="1838000" />
       <workItem from="1563968774516" duration="7603000" />
       <workItem from="1564161174097" duration="1846000" />
-      <workItem from="1564206979522" duration="9085000" />
+      <workItem from="1564206979522" duration="14152000" />
     </task>
     <servers />
   </component>
