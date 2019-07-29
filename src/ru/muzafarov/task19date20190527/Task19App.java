@@ -59,6 +59,8 @@ public class Task19App {
                 newProducts = null;
                 isAmount = true;
 
+                scanner.nextLine();
+
                 /*if (scanner.hasNextLine() && !scanner.hasNextDouble()) {
 
                     title = scanner.nextLine();
