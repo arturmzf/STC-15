@@ -12,13 +12,14 @@ public class Task21App {
 
         soat.showOriginalArray();
         soat.toLeft();
+        System.out.println("Сдвиг произведён...");
         soat.showResult();
 
-        System.out.println("");
         System.out.println("");
 
         ar.showOriginalArray();
         ar.arrayReverse();
+        System.out.println("Реверс произведён...");
         ar.showResult();
 
     }

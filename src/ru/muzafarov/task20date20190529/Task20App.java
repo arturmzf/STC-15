@@ -36,7 +36,7 @@ public class Task20App {
             ){
 
                 ObjectMapper objectMapper = new ObjectMapper();
-                ChuckNorrisJokes chucky = objectMapper.readValue(br, ChuckNorrisJokes.class);
+                ChuckNorrisJokes chucky = objectMapper.readValue(reader, ChuckNorrisJokes.class);
 //              ChuckNorrisJokes chucky = objectMapper.readValue(reader, ChuckNorrisJokes.class);
 
 

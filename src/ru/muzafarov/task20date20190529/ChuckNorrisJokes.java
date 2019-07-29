@@ -20,7 +20,7 @@ public class ChuckNorrisJokes {
     public ChuckNorrisJokes() {
     }
 
-    public ChuckNorrisJokes(int id, Value value) {
+    public ChuckNorrisJokes(String type, Value value) {
         this.type = type;
         this.value = value;
     }

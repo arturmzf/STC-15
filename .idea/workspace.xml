@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79daecad-9e48-406d-b69d-cbaaffaaf6e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/ChuckNorrisJokes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/ChuckNorrisJokes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/Task20App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/Task20App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/Task21App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/Task21App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,8 +145,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task20App" />
-        <item itemvalue="Application.Task19App" />
         <item itemvalue="Application.Task21App" />
+        <item itemvalue="Application.Task19App" />
         <item itemvalue="Application.Task18App" />
         <item itemvalue="Application.Task17App" />
       </list>
@@ -200,6 +199,7 @@
       <workItem from="1563968774516" duration="7603000" />
       <workItem from="1564161174097" duration="1846000" />
       <workItem from="1564206979522" duration="20754000" />
+      <workItem from="1564383289920" duration="601000" />
     </task>
     <servers />
   </component>
