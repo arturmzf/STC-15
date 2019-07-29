@@ -36,7 +36,30 @@ public class Task19App {
 
             while (scanner.hasNext()) {
 
-                if (scanner.hasNextLine() && !scanner.hasNextDouble()) {
+                title = scanner.nextLine();
+
+                if (scanner.hasNextInt()) {
+
+                    amountInt = scanner.nextInt();
+                    amountDouble = 0;
+
+                } else if (scanner.hasNextDouble()) {
+
+                    amountInt = 0;
+                    amountDouble = scanner.nextDouble();
+
+                }
+
+                price = scanner.nextDouble();
+                Product product = new Product(title, price, isAmountInt, amountDouble, amountInt, (amountDouble * price) + (amountInt * price));
+                Product[] newProducts = new Product[products.length + 1];
+                System.arraycopy(products, 0, newProducts, 0, products.length);
+                newProducts[products.length] = product;
+                products = newProducts;
+                newProducts = null;
+                isAmount = true;
+
+                /*if (scanner.hasNextLine() && !scanner.hasNextDouble()) {
 
                     title = scanner.nextLine();
 
@@ -66,7 +89,7 @@ public class Task19App {
                     newProducts = null;
                     isAmount = true;
 
-                }
+                }*/
 
             }
 

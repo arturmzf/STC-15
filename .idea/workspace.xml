@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79daecad-9e48-406d-b69d-cbaaffaaf6e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/Task21App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/Task21App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask1/ShiftOfArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask1/ShiftOfArrayElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask2/ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask2/ArrayReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task19date20190527/Task19App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task19date20190527/Task19App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task21App">
+  <component name="RunManager" selected="Application.Task19App">
     <configuration name="Task17App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.muzafarov.task17date20190522.Task17App" />
       <module name="STC-15" />
@@ -145,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task21App" />
         <item itemvalue="Application.Task19App" />
+        <item itemvalue="Application.Task21App" />
         <item itemvalue="Application.Task20App" />
         <item itemvalue="Application.Task18App" />
         <item itemvalue="Application.Task17App" />
@@ -199,7 +197,7 @@
       <workItem from="1563815804268" duration="1838000" />
       <workItem from="1563968774516" duration="7603000" />
       <workItem from="1564161174097" duration="1846000" />
-      <workItem from="1564206979522" duration="19464000" />
+      <workItem from="1564206979522" duration="20058000" />
     </task>
     <servers />
   </component>
