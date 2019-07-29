@@ -14,27 +14,15 @@ import java.util.Arrays;
 
 public class ChuckNorrisJokes {
 
-    private int id;
     private String type;
-    private String joke;
-    private String[] categories;
+    private Value value;
 
     public ChuckNorrisJokes() {
     }
 
-    public ChuckNorrisJokes(int id, String type, String joke, String[] categories) {
-        this.id = id;
+    public ChuckNorrisJokes(int id, Value value) {
         this.type = type;
-        this.joke = joke;
-        this.categories = categories;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        this.value = value;
     }
 
     public String getType() {
@@ -45,29 +33,5 @@ public class ChuckNorrisJokes {
         this.type = type;
     }
 
-    public String getJoke() {
-        return joke;
-    }
 
-    public void setJoke(String joke) {
-        this.joke = joke;
-    }
-
-    public String[] getCategories() {
-        return categories;
-    }
-
-    public void setCategories(String[] categories) {
-        this.categories = categories;
-    }
-
-    @Override
-    public String toString() {
-        return "ChuckNorrisJokes{" +
-                "id=" + id +
-                ", type='" + type + '\'' +
-                ", joke='" + joke + '\'' +
-                ", categories=" + Arrays.toString(categories) +
-                '}';
-    }
 }
