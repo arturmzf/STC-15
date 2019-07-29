@@ -3,7 +3,6 @@ package ru.muzafarov.task21date20190531.subtask1;
 public class ShiftOfArrayElements {
 
     private int[][] array;
-    private int[][] arrayOriginal;
 
     public ShiftOfArrayElements(int[][] array) {
         this.array = array;
@@ -17,15 +16,30 @@ public class ShiftOfArrayElements {
         this.array = array;
     }
 
-    public void toLeft() {
+    public void showOriginalArray() {
 
-        arrayOriginal = array;
+        System.out.println("Первоначальный массивчик:");
+
+        for (int i = 0; i < array.length; i++) {
+
+            for (int j = 0; j < (array[i].length); j++) {
+
+                System.out.print(array[i][j] + " ");
+
+            }
+
+            System.out.println("");
+
+        }
+    }
+
+    public void toLeft() {
 
         for (int i = 0; i < array.length; i++) {
 
             for (int j = 0; j < (array[i].length - 1); j++) {
 
-                array[j] = array[j+1];
+                array[i][j] = array[i][j+1];
 
             }
 
@@ -37,21 +51,7 @@ public class ShiftOfArrayElements {
 
     public void showResult() {
 
-        System.out.println("Первоначальный массивчик:");
-
-        for (int i = 0; i < arrayOriginal.length; i++) {
-
-            for (int j = 0; j < (arrayOriginal[i].length); j++) {
-
-                System.out.print(arrayOriginal[i][j] + " ");
-
-            }
-
-            System.out.println("");
-
-        }
-
-        System.out.println("\n\nИзменённый массивчик:");
+        System.out.println("Изменённый массивчик:");
 
         for (int i = 0; i < array.length; i++) {
 
