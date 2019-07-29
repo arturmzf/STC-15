@@ -10,6 +10,8 @@
 
 package ru.muzafarov.task20date20190529;
 
+import java.util.Arrays;
+
 public class Value {
 
     private int id;
@@ -47,6 +49,15 @@ public class Value {
 
     public void setCategories(String[] categories) {
         this.categories = categories;
+    }
+
+    @Override
+    public String toString() {
+        return "Value{" +
+                "id=" + id +
+                ",\n joke='" + joke + '\'' +
+                ",\n categories=" + Arrays.toString(categories) +
+                '}';
     }
 
 }

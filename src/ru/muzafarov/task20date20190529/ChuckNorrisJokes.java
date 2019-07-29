@@ -33,5 +33,20 @@ public class ChuckNorrisJokes {
         this.type = type;
     }
 
+    public Value getValue() {
+        return value;
+    }
+
+    public void setValue(Value value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "ChuckNorrisJokes{" +
+                "type='" + type + '\'' +
+                ",\n value=" + value +
+                '}';
+    }
 
 }
