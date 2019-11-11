@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79daecad-9e48-406d-b69d-cbaaffaaf6e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/STC-15/ru/muzafarov/task19date20190527/files/productsOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/STC-15/ru/muzafarov/task19date20190527/files/productsOutput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/ChuckNorrisJokes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/ChuckNorrisJokes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task20date20190529/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask2/ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/muzafarov/task21date20190531/subtask2/ArrayReverse.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stc_15_repo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -146,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task21App" />
         <item itemvalue="Application.Task20App" />
         <item itemvalue="Application.Task19App" />
-        <item itemvalue="Application.Task21App" />
         <item itemvalue="Application.Task18App" />
         <item itemvalue="Application.Task17App" />
       </list>
@@ -202,6 +199,9 @@
       <workItem from="1564161174097" duration="1846000" />
       <workItem from="1564206979522" duration="20754000" />
       <workItem from="1564383289920" duration="2235000" />
+      <workItem from="1573136003611" duration="163000" />
+      <workItem from="1573143447924" duration="21000" />
+      <workItem from="1573481148842" duration="4066000" />
     </task>
     <servers />
   </component>
